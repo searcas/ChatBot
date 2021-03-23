@@ -1,0 +1,399 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: Aladin-Regular;
+    src: url(../font/Aladin-Regular.ttf);
+}
+#Head
+{
+    position:relative;
+    top:0px;
+    left:48%;
+    color:white;
+}
+body {
+    font-family: Aladin-Regular;
+    font-size: 15px;
+}
+.obv{
+    position:relative;
+    top:300px;
+}
+#im {
+    background-image: url(../Images/audiheader.jpg);
+    width: 100%;
+    height: 5%;
+    position: relative;
+}
+
+.lista li {
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 5px;
+    display: block;
+    margin-top: 5px;
+}
+
+.lista ul {
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    display: none;
+    border: 5px solid black;
+}
+
+
+p {
+    font-size: 30px;
+    color: white;
+    text-align: justify;
+}
+
+#f p {
+    margin: 3px;
+    font-size: 17px;
+    padding: 3px;
+    border: 3px;
+    color: #ffff;
+}
+
+#img {
+    background-image: url(../Images/audirs7.jpg);
+    color: #ffff;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+#f #txt {
+    display: block;
+}
+
+#txt:hover {
+    background-color: gray;
+}
+
+#f #btn {
+    margin-top: 10px;
+}
+
+#f {
+    top: 100px;
+    left: 800px;
+    position: relative;
+    padding: 3px;
+}
+
+#img h1 {
+    margin: 0;
+    padding-left: 700px;
+    font-size: 50px;
+    color: #ffff;
+}
+
+#btn:hover {
+    border-radius: 5px;
+    border-color: black;
+    color: black;
+    background-color: gray;
+    box-shadow: 2px 3px #ffff;
+}
+
+.nv {
+    margin: 10px;
+    font-size: 30px;
+    overflow: hidden;
+    background-color: black;
+    color: #ffff;
+    text-align: center;
+}
+
+.tpNav {
+    background-color: black;
+    overflow: hidden;
+}
+
+    .tpNav a {
+        float: left;
+        color: #f2f2f2;
+        padding: 1px 240px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 30px;
+        margin-top: 5px;
+        margin-right: 10px;
+        margin-left: 30px;
+    }
+
+        .tpNav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .tpNav a:active {
+            background-color: #808080;
+            color: red;
+        }
+
+#hmbgMenu {
+    width: 70px;
+    border: 1px solid #ffff;
+    margin-top: 100px;
+    margin-bottom: -10px;
+}
+
+.lis {
+    display: none;
+}
+
+#padajuciMenu {
+    position: relative;
+    display: inline-block;
+}
+
+#lista {
+    display: none;
+    position: absolute;
+    background-color: black;
+    box-shadow: 1px 1px 1px 1px #ffff;
+}
+
+    #lista a {
+        padding: 5px 16px;
+        text-decoration: none;
+        display: block;
+        color: red;
+    }
+
+        #lista a:hover {
+            background-color: #ffff;
+        }
+
+#padajuciMenu:hover #lista {
+    display: block;
+}
+
+
+@media (min-width: 600px) {
+
+    #hmbgMenu {
+        display: none;
+    }
+
+    .lis {
+        display: inline;
+        background-color: gray;
+        border-radius: 6px;
+    }
+
+    .izlozba img {
+        position: fixed;
+        top: 200px;
+        left: 780px;
+        width: 20%;
+    }
+
+    .izlozba p {
+        position: fixed;
+        top: 480px;
+        left: 795px;
+        color: white;
+        font-size: 21px;
+    }
+
+    #H3 {
+        color: white;
+        font-size: 25px;
+        position: fixed;
+        top: 410px;
+        left: 915px;
+        border-radius: 3px;
+        border: 1px solid #ffff;
+        padding: 5px;
+        opacity: 0.7;
+    }
+
+        #H3 a {
+            text-decoration: none;
+            color: white;
+        }
+
+    #H1 {
+        color: white;
+        position: relative;
+        margin-left: 840px;
+        font-size: 40px;
+    }
+}
+
+#secPage {
+    background-image: url(../Images/audir8.jpg);
+}
+
+@media (max-width: 600px) {
+    #H1 {
+        color: white;
+        position: fixed;
+        margin-top: 30px;
+        margin-left: 0px;
+        font-size: 20px;
+    }
+
+    #H3 {
+        color: white;
+        font-size: 20px;
+        position: fixed;
+        border-radius: 3px;
+        border: 1px solid #ffff;
+        padding: 5px;
+        margin-top: 300px;
+    }
+
+        #H3 a {
+            text-decoration: none;
+            color: white;
+        }
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+}
+
+    .footer p {
+        text-align: center;
+        font-size: 15px;
+    }
+
+#animacije {
+    background-image: url(../Images/audi.jpg);
+}
+
+#anim a {
+    position: fixed;
+    border: 0px solid #ffff;
+    font-size: 50px;
+    text-decoration: none;
+    top: 20px;
+    color: black;
+    padding: 5px;
+}
+
+@-webkit-keyframes animacija1 {
+    from {
+        top: 100px;
+    }
+
+    to {
+        top: 300px;
+    }
+}
+
+@keyframes animacija1 {
+    from {
+        top: 100px;
+    }
+
+    to {
+        top: 300px;
+    }
+}
+
+@-webkit-keyframes animacija2 {
+    from {
+        left: 100px;
+    }
+
+    to {
+        top: 300px;
+    }
+}
+
+@keyframes animacija2 {
+    from {
+        left: 100px;
+    }
+
+    to {
+        top: 300px;
+    }
+}
+
+@-webkit-keyframes animacija3 {
+    from {
+        right: 100px;
+        top: 100px
+    }
+
+    to {
+        right: 0px;
+        top: 0px
+    }
+}
+
+@keyframes animacija3 {
+    from {
+        right: 100px;
+        top: 100px
+    }
+
+    to {
+        right: 0px;
+        top: 0px
+    }
+}
+
+
+#an #imgAnim1 {
+    padding: 50px;
+    position: relative;
+    top: 100px;
+    width: 50px;
+    height: 50px;
+}
+
+#an #imgAnim2 {
+    padding: 50px;
+    top: 100px;
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+#an #imgAnim3 {
+    padding: 50px;
+    position: relative;
+    top: 100px;
+    width: 50px;
+    height: 50px;
+}
+
+#an #imgAnim1:hover {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    animation: animacija1 5s infinite;
+    -webkit-animation: animacija1 5s infinite;
+}
+
+#an #imgAnim2:hover {
+    position: relative;
+    animation: animacija2 5s infinite;
+    -webkit-animation: animacija2 5s infinite;
+}
+
+#an #imgAnim3:hover {
+    position: relative;
+    animation: animacija3 5s infinite;
+    -webkit-animation: animacija3 5s infinite;
+}
